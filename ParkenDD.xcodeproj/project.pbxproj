@@ -37,16 +37,6 @@
 		8BC30D140F25BA33CDB32F5D /* Pods_ParkenDD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126B02BC31AC3082DEF3E5D9 /* Pods_ParkenDD.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		39EAB8BC1BE96E1E005A7290 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39F4CFD61A6BBC0200ACFECF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 39F4CFDD1A6BBC0200ACFECF;
-			remoteInfo = ParkenDD;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		390CD0581AEE6602003EB8F4 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -62,6 +52,10 @@
 
 /* Begin PBXFileReference section */
 		126B02BC31AC3082DEF3E5D9 /* Pods_ParkenDD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParkenDD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		240C52E226826080004E5721 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		240C52E326826081004E5721 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Main.strings"; sourceTree = "<group>"; };
+		240C52E426826081004E5721 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		240C52E526826081004E5721 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		3904EE041B55C61700B2933B /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		3926FECC1AAC47AA005B2DF9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		392E9B461A6D3143006C6869 /* LotCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LotCell.swift; sourceTree = "<group>"; };
@@ -102,7 +96,6 @@
 		39F4CFED1A6BBC0200ACFECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3BB249A19DB2C164F42946F6 /* Pods-ParkenDD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkenDD.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParkenDD/Pods-ParkenDD.release.xcconfig"; sourceTree = "<group>"; };
 		9579584D689CDE7A239FCEBB /* Pods-ParkenDD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkenDD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParkenDD/Pods-ParkenDD.debug.xcconfig"; sourceTree = "<group>"; };
-		D53AC0AE0930F88C064CC653 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				39B953521AA0A59600026EC2 /* NotificationCenter.framework */,
-				D53AC0AE0930F88C064CC653 /* Pods.framework */,
 				126B02BC31AC3082DEF3E5D9 /* Pods_ParkenDD.framework */,
 			);
 			name = Frameworks;
@@ -261,7 +253,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				39EAB8BD1BE96E1E005A7290 /* PBXTargetDependency */,
 			);
 			name = ParkenDDUITests;
 			productName = ParkenDDUITests;
@@ -308,11 +299,11 @@
 					39EAB8B61BE96E1E005A7290 = {
 						CreatedOnToolsVersion = 7.1;
 						LastSwiftMigration = 0930;
-						TestTargetID = 39F4CFDD1A6BBC0200ACFECF;
+						ProvisioningStyle = Automatic;
 					};
 					39F4CFDD1A6BBC0200ACFECF = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = HU85FER47E;
+						DevelopmentTeam = ULU63PMMHC;
 						LastSwiftMigration = 0930;
 					};
 				};
@@ -328,6 +319,7 @@
 				de,
 				pl,
 				cs,
+				"en-GB",
 			);
 			mainGroup = 39F4CFD51A6BBC0200ACFECF;
 			productRefGroup = 39F4CFDF1A6BBC0200ACFECF /* Products */;
@@ -534,14 +526,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		39EAB8BD1BE96E1E005A7290 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 39F4CFDD1A6BBC0200ACFECF /* ParkenDD */;
-			targetProxy = 39EAB8BC1BE96E1E005A7290 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		3977CA271A9CC78C00E20014 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -550,6 +534,7 @@
 				3977CA281A9CC78E00E20014 /* de */,
 				398E45C81BE8FA9A002E0DA8 /* pl */,
 				39B8D9B71E084DD600659F0F /* cs */,
+				240C52E426826081004E5721 /* en-GB */,
 			);
 			name = InfoPlist.strings;
 			path = .;
@@ -562,6 +547,7 @@
 				397D7B201A9A223A001B5874 /* de */,
 				398E45C91BE8FA9A002E0DA8 /* pl */,
 				39B8D9B81E084DD600659F0F /* cs */,
+				240C52E526826081004E5721 /* en-GB */,
 			);
 			name = Localizable.strings;
 			path = .;
@@ -571,6 +557,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				39F4CFE81A6BBC0200ACFECF /* Base */,
+				240C52E326826081004E5721 /* en-GB */,
 			);
 			name = Main.storyboard;
 			path = .;
@@ -580,6 +567,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				39F4CFED1A6BBC0200ACFECF /* Base */,
+				240C52E226826080004E5721 /* en-GB */,
 			);
 			name = LaunchScreen.xib;
 			path = .;
@@ -591,16 +579,22 @@
 		39EAB8BF1BE96E1E005A7290 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = ParkenDDUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.kilian.ParkenDDUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = ParkenDD;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -608,18 +602,24 @@
 		39EAB8C01BE96E1E005A7290 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ULU63PMMHC;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = ParkenDDUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.kilian.ParkenDDUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = ParkenDD;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
@@ -739,6 +739,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ULU63PMMHC;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -748,7 +749,7 @@
 				INFOPLIST_FILE = "ParkenDD/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.kilian.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.Rebanned;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SOURCEROOT = ParkenDD/;
@@ -769,6 +770,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ULU63PMMHC;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -778,7 +780,7 @@
 				INFOPLIST_FILE = "ParkenDD/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.kilian.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dev.Rebanned;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SOURCEROOT = ParkenDD/;
